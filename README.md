@@ -41,18 +41,16 @@ The Initial State probabilities of each character are given in the table below.
 The success rate of the algorithm is given in the following two tables.
 
 
-| Words    | Numbers		  | Rates 	          |
-|	       | Correct  | Wrong | Correct  | Wrong  |
-|:--------:|:--------:|:-----:|:--------:|:------:|
-| Before   |	2121  |  1290 |  62.18%	 | 37.82% |
-| Viterbi  |    2363  |  1048 |  69.28%	 | 30.72% |
+| Words    | Correct(#) | Wrong(#) | Correct(%) | Wrong(%) |
+|:--------:|:----------:|:--------:|:----------:|:--------:|
+| Before   |    2121    |  1290    |  62.18%    | 37.82%   |
+| Viterbi  |    2363    |  1048    |  69.28%    | 30.72%   |
 
 
-| Characters | Numbers          | Rates 	        |
-|            | Correct  | Wrong | Correct  | Wrong  |
-|:----------:|:--------:|:-----:|:--------:|:------:|
-| Before     |	14934   |  1654 |  90.03%  |  9.97% |
-| Viterbi    |  15258   |  1330 |  91.98%  |  8.02% |
+| Characters | Correct(#) | Wrong(#) | Correct(%) | Wrong(%) |
+|:----------:|:----------:|:--------:|:----------:|:--------:|
+| Before     |  14934     |  1654    |  90.03%    |  9.97%   |
+| Viterbi    |  15258     |  1330    |  91.98%    |  8.02%   |
 
 
 ## Dependencies
